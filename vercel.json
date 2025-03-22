@@ -2,7 +2,11 @@
     "version": 2,
     "buildCommand": "npm run build",
     "devCommand": "npm run dev",
-    "installCommand": "npm install",
+    "installCommand": "npm install --legacy-peer-deps",
     "framework": "vite",
-    "outputDirectory": "dist"
+    "outputDirectory": "dist",
+    "env": {
+        "VITE_API_URL": "https://mysql-fuco-production.up.railway.app",
+        "VITE_GOOGLE_MAPS_API_KEY": "AIzaSyDyRgEnNYrrkDqnJNETjacyPv0AR39uM6c"
+    }
 } 
