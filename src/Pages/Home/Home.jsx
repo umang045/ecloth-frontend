@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import { HeroGeometric } from "@/components/ui/shape-landing-hero";
-import Marque from "../../Components/Marquee/Marque";
-import Card from "../../Components/Card/Card";
+import { HeroGeometric } from "@/components/ui/shape-landing-hero.jsx";
+import Marque from "../../Components/Marquee/Marque.jsx";
+import Card from "../../Components/Card/Card.jsx";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import "animate.css";
