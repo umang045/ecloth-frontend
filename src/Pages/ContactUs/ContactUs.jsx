@@ -6,9 +6,9 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import { useLocation, useNavigate } from "react-router-dom";
-import { Worker, Viewer } from "@react-pdf-viewer/core";
-import "@react-pdf-viewer/core/lib/styles/index.css";
-import PDFViewer from "pdf-viewer-reactjs";
+// import { Worker, Viewer } from "@react-pdf-viewer/core";
+// import "@react-pdf-viewer/core/lib/styles/index.css";
+// import PDFViewer from "pdf-viewer-reactjs";
 
 const ContactUs = () => {
   const navigate = useNavigate();
@@ -90,11 +90,11 @@ const ContactUs = () => {
             ></iframe> */}
 
             {/* <Document file="https://docs.google.com/gview?url=https://s3bucket.onthecloud.in/vega-erp-dev//dms/CRM/1741680827288-Project_Requirements_Document_for_DMS.pdf&embedded=true"></Document> */}
-            <PDFViewer
+            {/* <PDFViewer
               document={{
                 url: "https://arxiv.org/pdf/quant-ph/0410100.pdf",
               }}
-            />
+            /> */}
           </div>
         </div>
 

@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { Collapse, Rate, Image } from "antd";
-import ReactImageMagnify from "react-image-magnify";
+// import ReactImageMagnify from "react-image-magnify";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import { toast } from "react-toastify";
@@ -89,7 +89,7 @@ export const SingleProduct = () => {
 
   const { usersCart } = useSelector((state) => state.user, shallowEqual);
   useEffect(() => {
-    const isProductInCart = usersCart?.some((item) => item?.product_id == id)
+    const isProductInCart = usersCart?.some((item) => item?.product_id == id);
     setIsAlreadyAdded(isProductInCart);
   }, [usersCart, id]);
 
@@ -153,7 +153,10 @@ export const SingleProduct = () => {
             </div>
             <div className="flex flex-col lg:flex-row lg:space-x-10">
               <div class="shrink-0 max-w-sm lg:max-w-sm mx-auto">
-                <ReactImageMagnify
+                <img
+                  src={`${singleProduct && singleProduct[0][0]?.image}`}
+                ></img>
+                {/*<ReactImageMagnify
                   {...{
                     smallImage: {
                       alt: `${singleProduct && singleProduct[0][0]?.title}`,
@@ -166,7 +169,7 @@ export const SingleProduct = () => {
                       height: 1000,
                     },
                   }}
-                />
+                /> */}
               </div>
               <div className="w-full lg:w-1/2 mt-6 lg:mt-0 text-gray-900">
                 <h1 className="text-3xl font-bold">
