@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
-import { HeroGeometric } from "@/components/ui/shape-landing-hero.jsx";
+// import { HeroGeometric } from "@/components/ui/shape-landing-hero.jsx";
+import { HeroGeometric } from "../../Components/ui/shape-landing-hero";
 import Marque from "../../Components/Marquee/Marque.jsx";
 import Card from "../../Components/Card/Card.jsx";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import "animate.css";
 import ScrollTrigger from "https://cdn.skypack.dev/gsap@3.11.0/ScrollTrigger";
-import ProductImgUI from "@/Components/ProductImgUI/ProductImgUI";
+import ProductImgUI from "../../Components/ProductImgUI/ProductImgUI";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import {
   getAllProductsWithoutFilter,
@@ -44,7 +45,7 @@ const Home = () => {
   useEffect(() => {
     isLogin();
   }, [isLogin(), dispatch]);
-  // console.log(isLogin())  
+  // console.log(isLogin())
 
   useEffect(() => {
     if (isLogin()) {
