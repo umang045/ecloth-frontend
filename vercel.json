@@ -4,6 +4,5 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install --force",
   "framework": "vite",
-  "outputDirectory": "dist",
-  "postinstall": "npm i --force"
+  "outputDirectory": "dist"
 }
