@@ -1,4 +1,4 @@
-import { adminGetAllOrderList } from "@/Feature/User/UserSlice";
+import { adminGetAllOrderList } from "../../../Feature/User/UserSlice";
 import { Table } from "antd";
 import classNames from "classnames";
 import React, { useEffect } from "react";

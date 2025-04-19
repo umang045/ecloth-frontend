@@ -4,9 +4,9 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { FaUserCircle, FaShoppingCart } from "react-icons/fa";
 import { AiOutlineDashboard } from "react-icons/ai";
-import { base_url, getConfig, fetchToken, isLogin } from "@/utils/AxiosConfig";
+import { base_url, getConfig, fetchToken, isLogin } from "../../utils/AxiosConfig";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
-import { getSingleUser, getUsersCart } from "@/Feature/User/UserSlice";
+import { getSingleUser, getUsersCart } from "../../Feature/User/UserSlice";
 
 const Navbar = () => {
   const dispatch = useDispatch();

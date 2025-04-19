@@ -2,8 +2,8 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
 
-import { Button } from "@/components/ui/button";
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import { Button } from "../Components/ui/button";
+import { Carousel, CarouselContent, CarouselItem } from "../Components/ui/carousel";
 
 const data = [
   {

@@ -2,7 +2,7 @@ import {
   addSingleProductsReviews,
   getSingleProduct,
   getSingleProductsReviews,
-} from "@/Feature/Products/ProductSlice";
+} from "../../Feature/Products/ProductSlice";
 import React, { useEffect, useState } from "react";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate, useParams } from "react-router-dom";
@@ -11,9 +11,9 @@ import { Collapse, Rate, Image } from "antd";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import { toast } from "react-toastify";
-import { addToUsersCart, getUsersCart } from "@/Feature/User/UserSlice";
-import Loading from "@/Components/Loading/Loading";
-import { isLogin } from "@/utils/AxiosConfig";
+import { addToUsersCart, getUsersCart } from "../../Feature/User/UserSlice";
+import Loading from "../../Components/Loading/Loading";
+import { isLogin } from "../../utils/AxiosConfig";
 
 let reviewSchema = yup.object({
   review: yup.string().required("Enter Some Review"),

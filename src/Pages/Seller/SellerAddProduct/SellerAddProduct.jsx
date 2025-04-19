@@ -23,7 +23,7 @@ import {
   getAllProductColor,
   sellerUpdateProduct,
   uploadImgToCloudinary,
-} from "@/Feature/Products/ProductSlice";
+} from "../../../Feature/Products/ProductSlice";
 import { MdDelete } from "react-icons/md";
 
 //define validation schema for form

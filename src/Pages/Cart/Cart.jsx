@@ -2,7 +2,7 @@ import {
   getUsersCart,
   removeFromUsersCart,
   updateCartQuantity,
-} from "@/Feature/User/UserSlice";
+} from "../../Feature/User/UserSlice";
 import React, { useEffect, useState } from "react";
 import { FaTrashAlt } from "react-icons/fa";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
@@ -11,7 +11,7 @@ import { Image } from "antd";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { Link } from "react-router-dom";
-import Loading from "@/Components/Loading/Loading";
+import Loading from "../../Components/Loading/Loading";
 import emptyCartGif from "../../../public/emptyCart.gif";
 import { GiShop } from "react-icons/gi";
 

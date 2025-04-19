@@ -1,7 +1,7 @@
 import { Children, useCallback, useEffect, useMemo, useRef } from "react"
 import { motion, useAnimate, useAnimationFrame } from "framer-motion";
 import { v4 as uuidv4 } from "uuid"
-import { useMouseVector } from "@/hooks/use-mouse-vector";
+import { useMouseVector } from "../../hooks/use-mouse-vector";
 
 // import { useMouseVector } from "@/components/hooks/use-mouse-vector"
 

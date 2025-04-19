@@ -1,4 +1,4 @@
-import { adminGetAllProducts } from "@/Feature/Products/ProductSlice";
+import { adminGetAllProducts } from "../../../Feature/Products/ProductSlice";
 import { Image, Switch, Table } from "antd";
 import React, { useEffect } from "react";
 import { FaEdit, FaListAlt } from "react-icons/fa";

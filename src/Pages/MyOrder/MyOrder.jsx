@@ -9,7 +9,7 @@ import {
   getSingleUsersOrders,
   getUsersOrders,
   getUsersOrdersPaymentDetails,
-} from "@/Feature/User/UserSlice";
+} from "../../Feature/User/UserSlice";
 import "./MyOrder.css";
 import { toast } from "react-toastify";
 import { GiCash } from "react-icons/gi";

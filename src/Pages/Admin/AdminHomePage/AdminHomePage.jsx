@@ -13,7 +13,7 @@ import {
   GetTotalUsers,
   sellerGetAllTotalProducts,
   sellerTotalOrderStatus,
-} from "@/Feature/User/UserSlice";
+} from "../../../Feature/User/UserSlice";
 
 const AdminHomePage = () => {
   const dispatch = useDispatch();

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { base_url, getConfig } from "@/utils/AxiosConfig";
+import { base_url, getConfig } from "../../utils/AxiosConfig";
 
 //get object of headers for token authorization from utils file
 const config = getConfig();

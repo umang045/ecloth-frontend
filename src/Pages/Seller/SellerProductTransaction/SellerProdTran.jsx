@@ -1,4 +1,4 @@
-import { getSellersProductsTransaction } from "@/Feature/Products/ProductSlice";
+import { getSellersProductsTransaction } from "../../../Feature/Products/ProductSlice";
 import { Table } from "antd";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";

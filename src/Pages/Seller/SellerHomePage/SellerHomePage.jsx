@@ -9,7 +9,7 @@ import {
   GetTotalUsers,
   sellerGetAllTotalProducts,
   sellerTotalOrderStatus,
-} from "@/Feature/User/UserSlice";
+} from "../../../Feature/User/UserSlice";
 
 const SellerHomePage = () => {
   const dispatch = useDispatch();

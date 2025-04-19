@@ -11,7 +11,7 @@ import {
   getUsersAddress,
   getUsersCart,
   placeUsersOrder,
-} from "@/Feature/User/UserSlice";
+} from "../../Feature/User/UserSlice";
 import { toast } from "react-toastify";
 import { Link, useNavigate } from "react-router-dom";
 

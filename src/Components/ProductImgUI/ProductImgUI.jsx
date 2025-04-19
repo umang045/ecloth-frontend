@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { ImageTrail } from "@/components/ui/image-trail";
+import { ImageTrail } from "../../Components/ui/image-trail";
 
 const ProductImgUI = () => {
   const ref = useRef(null);

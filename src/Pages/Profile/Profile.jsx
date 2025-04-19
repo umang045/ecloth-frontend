@@ -12,16 +12,16 @@ import {
   getSingleUser,
   getUsersAddress,
   userUpdateProdilePic,
-} from "@/Feature/User/UserSlice";
+} from "../../Feature/User/UserSlice";
 import { toast } from "react-toastify";
 import {
   updateProfile,
   updateUserPasswordFromProfile,
-} from "@/Feature/Auth/AuthSlice";
+} from "../../Feature/Auth/AuthSlice";
 import {
   deleteImgFromCloudinary,
   uploadImgToCloudinary,
-} from "@/Feature/Products/ProductSlice";
+} from "../../Feature/Products/ProductSlice";
 
 const Profile = () => {
   const dispatch = useDispatch();

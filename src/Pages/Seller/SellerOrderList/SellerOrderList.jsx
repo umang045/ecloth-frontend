@@ -1,4 +1,4 @@
-import { getAllSellersOrders } from "@/Feature/User/UserSlice";
+import { getAllSellersOrders } from "../../../Feature/User/UserSlice";
 import React, { useEffect, useState } from "react";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";

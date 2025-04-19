@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
-import { getSellersSingleOrders } from "@/Feature/User/UserSlice";
+import { getSellersSingleOrders } from "../../../Feature/User/UserSlice";
 import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import { AiOutlineDollarCircle } from "react-icons/ai";
 import { Image } from "antd";

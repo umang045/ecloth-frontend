@@ -1,14 +1,13 @@
-import ProductCard from "@/Components/ProductCard/ProductCard";
+import ProductCard from "../../Components/ProductCard/ProductCard";
 import {
   getAllFilterProducts,
   getAllProductCount,
   getAllProductsCategory,
   getAllProductsColor,
-} from "@/Feature/Products/ProductSlice";
+} from "../../Feature/Products/ProductSlice";
 import React, { useEffect, useState } from "react";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import { Slider, Pagination } from "antd";
-import Loading from "@/Components/Loading/Loading";
 import NoProductsGif from "../../../public/NoProducts.gif";
 import "./Products.css";
 

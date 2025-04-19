@@ -2,11 +2,10 @@ import {
   deleteSellerProduct,
   getAllSellersProducts,
   toogleSellerProduct,
-} from "@/Feature/Products/ProductSlice";
+} from "../../../Feature/Products/ProductSlice";
 import React, { useEffect } from "react";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import { Table, Drawer, Timeline, Button, Image, Switch } from "antd";
-import { EyeOutlined, DeleteOutlined } from "@ant-design/icons";
 import { MdDelete } from "react-icons/md";
 import { FaEye, FaEdit, FaListAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";

@@ -11,8 +11,8 @@ import { loginUser, sendMail } from "../../Feature/Auth/AuthSlice";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { Button, Modal } from "antd";
-import { base_url, getConfig, fetchToken, isLogin } from "@/utils/AxiosConfig";
-import { getSingleUser } from "@/Feature/User/UserSlice";
+import { base_url, getConfig, fetchToken, isLogin } from "../../utils/AxiosConfig";
+import { getSingleUser } from "../../Feature/User/UserSlice";
 
 //login validation schema
 let loginSchema = yup.object({
