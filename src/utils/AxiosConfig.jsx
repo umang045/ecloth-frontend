@@ -1,7 +1,8 @@
 // import {jw} from "jwt-decode";
 
 //export url for reuse in every api request
-export const base_url = "http://localhost:8000/api";
+// export const base_url = "http://localhost:8000/api";
+export const base_url = "https://intern-e-com.vercel.app/api";
 
 //fetch token from localstorage
 export const fetchToken = () => {
